@@ -127,10 +127,11 @@ export default function Home() {
                 asChild
                 size="lg"
                 variant="outline"
-                className="border-primary-foreground/20 hover:bg-primary-foreground/10"
+                className="border border-white/30 text-white bg-gray-600 hover:bg-gray-800 rounded-lg px-4 py-2 shadow-sm transition-all duration-300 ease-in-out hover:shadow-md hover:scale-105"
               >
                 <Link href="/signup">Create Account</Link>
               </Button>
+
             </div>
           </div>
         </div>
